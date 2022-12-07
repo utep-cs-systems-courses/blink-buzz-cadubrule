@@ -9,3 +9,11 @@ void greenControl(int on)
     P1OUT &= ~LED_GREEN;
   }
 }
+void redControl(int on)
+{
+  if (on) {
+    P1OUT |= LED_RED;
+  } else {
+    P1OUT &= ~LED_RED;
+  }
+}

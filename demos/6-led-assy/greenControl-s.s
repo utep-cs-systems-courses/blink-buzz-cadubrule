@@ -4,6 +4,7 @@
 
 
 	.global greenControl
+	.global redControl
 	.extern P1OUT
 
 greenControl:
